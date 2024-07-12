@@ -1,0 +1,72 @@
+JAVA language fundamental:-
+  
+  1. Identifier
+  2. Operators
+  3. Control statements
+  4. Array
+  
+  Identifier:-   any name in JAVA given by programmers is called as identifier.
+             (identifiers are used for identification purpose)
+			(1) Class
+			(2) Method
+			(3) Variable
+			(4) Label
+			
+			Class:-      class classname{
+                            }
+						EX. class test{   }
+						    class demo{   }
+						
+			Method:-    returntype methodname( ){
+			            }
+						EX. void disp(){   }
+						    int sum( inta,intb){  }
+							public static void main(String[]args){  }
+							
+						    
+			Variable:-  datatype( byte,short,int,long,float,double,char,boolean),variablename
+			            EX. int x;
+						    double d=45.7;
+							boolean b=false;
+							short howareyou=7;
+							
+			Label:-     l1:( code here which is executed)
+			            EX. l2:( code1,code2,code3)
+						
+			            
+			
+			
+			
+        Identifier NAME RULES:-
+	        1. contain only a-z,A-Z,0-9,$._(underscore)
+	           EX. total123 (true)
+		           total# (false)
+  
+            2. can not start with numbers.
+	            EX. total123 (true)
+		        _total123 (true)
+			    123total (false)
+			
+	        3.  can not have writespace.
+	            EX. total123 (F)
+                    total (F)
+                    tot_ (F)
+
+	        4. case sensitive in nature.
+                EX. int number;
+                    int Number;
+			        int NUMBER;
+			
+	        5. Identifier can be of any length( but we don't use as it ruduce readability).
+                EX. int RajaRamMohanRayIsEatingBiryani;
+   
+            6. classname & interfacename are valid identifire but don't use as it creates confusion.
+                EX. int String=444;
+		            int Runnable=666;
+			
+	        7. can not be a keyword.
+
+
+	
+			
+			
